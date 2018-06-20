@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <database>
+        <oracle host="127.0.0.1" user="root" password="214365" port="1521"/>
+        <mysql host="127.0.0.1" user="root" password="214365" port="1521"/>
+        <sqlserver host="127.0.0.1" user="root" password="214365" port="1521"/>
+        <access host="127.0.0.1" user="root" password="214365" port="1521"/>
+    </database>
+</root>

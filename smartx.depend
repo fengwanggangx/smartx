@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1526044651 source:/home/oracle/Documents/smartx/common.cpp
+	"common.h"
+
+1528869761 /home/oracle/Documents/smartx/common.h
+	<iostream>
+	<map>
+	<vector>
+	<string>
+	<ctime>
+	<exception>
+	<algorithm>
+	<cstdlib>
+
+1158625890 source:/home/oracle/Documents/smartx/jwsmtp/base64.cpp
+	<vector>
+	<string>
+	"base64.h"
+
+1158625884 /home/oracle/Documents/smartx/jwsmtp/base64.h
+
+1158625877 source:/home/oracle/Documents/smartx/jwsmtp/compat.cpp
+	<string>
+	<vector>
+	"compat.h"
+
+1158625862 /home/oracle/Documents/smartx/jwsmtp/compat.h
+	<winsock2.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+
+1526122808 source:/home/oracle/Documents/smartx/main.cpp
+	"xoracle.cpp"
+	"xmysql.cpp"
+	"xmail.h"
+
+1526122607 /home/oracle/Documents/smartx/xmail.h
+	"xml.h"
+	"jwsmtp/jwsmtp.h"
+
+1526054601 /home/oracle/Documents/smartx/xml.h
+	"common.h"
+	"tinyxml2.h"
+
+1526581822 /home/oracle/Documents/smartx/tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1158625907 /home/oracle/Documents/smartx/jwsmtp/jwsmtp.h
+	"mailer.h"
+	"compat.h"
+	"base64.h"
+
+1528879162 /home/oracle/Documents/smartx/jwsmtp/mailer.h
+	<string>
+	<cstring>
+	<vector>
+	"compat.h"
+
+1526131564 source:/home/oracle/Documents/smartx/xmail.cpp
+	"xmail.h"
+
+1526054730 /home/oracle/Documents/smartx/xoracle.cpp
+	"xoracle.h"
+
+1526045120 /home/oracle/Documents/smartx/xoracle.h
+	"occi.h"
+	"xml.cpp"
+
+1526055268 /home/oracle/Documents/smartx/xml.cpp
+	"xml.h"
+
+1526054702 /home/oracle/Documents/smartx/xmysql.cpp
+	"xmysql.h"
+
+1526045305 /home/oracle/Documents/smartx/xmysql.h
+	"mysql/mysql.h"
+	"xml.h"
+

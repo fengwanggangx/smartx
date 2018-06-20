@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<database>
+		<oracle host="127.0.0.1" user="root" password="214365" db="orcl" port="1521">222</oracle>
+		<mysql host="127.0.0.1" user="root" password="214365" db="test" port="3306"/>
+		<sqlserver host="127.0.0.1" user="root" password="214365" port="1521"/>
+		<access host="127.0.0.1" user="root" password="214365" port="1521"/>
+		<rdms host="255.255.255">fengwanggang</rdms>
+	</database>
+	<modules>
+		<mail sender="12156565@163.com" passwd="4854666" receiver="784526@qq.com,yue20357921@163.com,446212321@qq.com" mailserver="smtp.163.com" port="SMTP_PORT" MXLookup="false" authtype="PLAIN" pattern="text" title="Hello girl!" mesg ="fafafafafafafa" attach="./configuration.xml"/>
+		<query enable="1">3333</query>
+	</modules>
+</configuration>
